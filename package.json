@@ -1,6 +1,6 @@
 {
   "name": "@pomgui/database-firebird",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "Library to handle Firebird database connections using Promises and allowing named parameters",
   "keywords": [
     "database",
