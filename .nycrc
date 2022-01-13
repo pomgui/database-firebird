@@ -1,0 +1,23 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": false,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*spec.ts"
+  ],
+  "branches": 95,
+  "functions": 100,
+  "lines": 95,
+  "statements": 95,
+  "extension": [
+    ".js",
+    ".ts",
+    ".tsx"
+  ],
+  "reporter": [
+    "html",
+    "text-summary"
+  ]
+}
